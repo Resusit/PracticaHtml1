@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de dragon ball</title>
+</head>
+<body>
+    <form action="Resultado_DB.html" method="get">
+        <label for="nombre">Nombre del personaje:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="especie">Especie:</label>
+        <select id="especie" name="especie">
+            <option value="Sayajin">Sayajin</option>
+            <option value="Namekian">Namekian</option>
+            <option value="Human">Human</option>
+            <option value="Majin">Majin</option>
+            <option value="Demon cold">Demon cold</option>
+        </select><br><br>
+
+        <input type="checkbox" id="poderosa" name="poderosa">
+        <label for="poderosa">¿Es poderos?</label><br><br>
+
+        <label>Sexo:</label><br>
+        <input type="radio" id="macho" name="sexo" value="macho">
+        <label for="macho">Macho</label><br>
+        <input type="radio" id="hembra" name="sexo" value="hembra">
+        <label for="hembra">Hembra</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
